@@ -1,0 +1,305 @@
+@import'layout/header';
+
+body, html {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+ }
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.loader {
+  visibility: hidden;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border-radius: 50%;
+  border: 7px solid transparent;
+  border-top-color: #9370DB;
+  -webkit-animation: spin 2s linear 2s;
+  animation: spin 2s linear 2s;
+   }
+
+
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        visibility: visible;
+    }
+
+    80% {
+      -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      transform: rotate(360deg);
+
+    }
+
+    100% {
+        visibility: hidden;
+    }
+}
+
+ h2 {
+  font-style: black;
+  font-family: "shrinkland", sans-serif;
+  }
+h4 {
+  font-family: "shrinkland", sans-serif;
+  margin: 0;
+}
+.header {
+  display: flex;
+  height: 100px;
+  
+.header__logo {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  height: 50px;
+  width: 350px;
+}
+}
+.position {
+  display: flex; 
+  justify-content: center;
+  background: #e5e2e2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-top: 5px solid #dad6d6;
+   
+  &__icon {
+    padding-top: 15px;
+    margin-right: 20px;
+  }
+  &__city {
+    font-weight: bold;
+   
+  }
+  }
+   
+
+.reservation {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  &__p {
+  color: grey;
+}  
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: auto;
+  width: 250px;
+  border: 2px solid rgb(199, 101, 199);
+  border-radius: 35px;
+  color: white;
+  font-size: 20px;
+    
+ }
+
+ .button:hover {
+  cursor: pointer;  
+  transition-duration: .3s;
+  box-shadow: .25rem .25rem 10px rgba(0,0,0,.25);
+
+  }
+
+ .operation_title {
+   padding-top: 50px;
+   margin-left: 70px;
+ }
+
+.operation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+
+&__name {
+  display: flex;
+  height: auto;
+  width: 500px;
+  border: 2px solid #f2f2f2;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 45px;
+  background-color: #f2f2f2;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+&__name:hover {
+  cursor: pointer;
+  background-color: white;
+}
+&__number {
+  margin-right: 20px;
+  margin-left: -35px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background: #9563d6;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  
+}
+
+&__icon {
+  margin-right: 20px;
+  color: gray;
+  
+ 
+} 
+&__icon:hover {
+  color: #9563d6;
+  cursor: pointer;
+}
+
+&__text {
+  text-align: center;
+  }
+}
+
+section {
+  background: #f2f2f2;
+  padding-bottom: 50px;
+}
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  justify-content: center;
+  
+}
+
+.card__container__title {
+  margin-left: 70px;
+  padding-top: 50px;
+}
+
+.card {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 35px;
+  text-align-last: 850px;
+  max-width: 100%;
+  height: 450px;
+  border-radius: 25px;
+  }
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.04);
+  }
+ 
+ .card__picture > img {
+   position: relative;
+   height: 350px;
+   object-fit: cover;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+   max-width: 100%;
+   width: 850px;
+  }
+  .card__picture__text {
+    color: #2d9e6f;
+    background-color: #a1e7cf;
+    text-align: center;
+    border: 1px solid #a1e7cf;
+    width: 100px;
+    height: 25px;
+    padding: 10px;
+    padding: auto;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+    border-radius: 5px;
+  }
+  .card__description {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100px;
+  }
+  
+ .card__description__text {
+  text-align: center; 
+  height: 100px;
+  width: 100px;
+  max-width: 100%;
+  display: flex;
+}
+
+ .card__icon__heart {
+  stroke: black;
+  stroke-width: 0.8px;
+  fill: transparent;
+  width: 45px;
+  height: 45px;
+}
+
+ .card__icon__heart:hover {
+  transition: all .8s ease-in-out;
+  fill: #c765c7;
+  cursor: pointer;
+ }
+
+
+
+.footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  line-height: normal;
+}
+
+.footer_logo {
+ font-family: "shrikhand";
+ padding-bottom: 20px;
+ font-size: 30px; 
+}
+
+.communication {
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  }
+.communication__icon {
+ margin-right: 10px;
+}
+.footer a {
+text-decoration: none;
+color: inherit;
+}
+
+.footer p {
+  padding-bottom: 30px;
+}

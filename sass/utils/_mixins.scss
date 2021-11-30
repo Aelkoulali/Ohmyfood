@@ -1,0 +1,11 @@
+///...Flex-box center...///
+@mixin flex-boxcenter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+///...hover...///
+@mixin hover  {
+    cursor: pointer;
+    color: purple;
+}
