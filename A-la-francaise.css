@@ -245,6 +245,11 @@ body, html {
           animation-delay: 2.4s;
 }
 
+.step10 {
+  -webkit-animation-delay: 2.7s;
+          animation-delay: 2.7s;
+}
+
 .list__number {
   flex:1;
   text-overflow: ellipsis;
