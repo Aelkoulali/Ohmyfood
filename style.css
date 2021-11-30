@@ -1,8 +1,7 @@
 body, html {
   font-family: "Roboto", sans-serif;
   margin: 0 auto;
-  background: #f2f2f2;
-}
+ }
 
 .preloader {
   position: fixed;
@@ -67,10 +66,6 @@ body, html {
   }
 }
 
-h2 {
-  font-style: black;
-  font-family: "shrinkland", sans-serif;
-}
 
 h4 {
   font-family: "shrinkland", sans-serif;
@@ -138,6 +133,7 @@ h4 {
           justify-content: center;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 50px;
   height: auto;
   max-width: 250px;
   border: 2px solid rgb(199, 101, 199);
@@ -385,6 +381,13 @@ section {
   line-height: 0;
  }
 
+.communication__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;      
+}
+
 .communication__list > a {
  color: inherit;
  text-decoration: none;
@@ -394,18 +397,11 @@ section {
 .communication__list:hover > a {
 text-decoration: underline;
 }
-.communication__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 25px;      
-}
 
 .communication__icon {
   margin-right: 10px;
   padding-top: 16px;
 }
-
 
 /*# sourceMappingURL=style.css.map */
 @media screen and (max-width: 1440px)  {
