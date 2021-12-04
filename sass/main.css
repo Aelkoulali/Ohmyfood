@@ -419,7 +419,7 @@ section {
 .container__title {
   padding-top: 10px;
   padding-left: 20px;
-  font-style: italic;
+  font-family: "shrikhand","cursive";
   font-weight: bold;
   font-size: 18px;
 }
