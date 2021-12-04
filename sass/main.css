@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Shrikhand&display=swap");
-body, html {
-  font-family: "Roboto", sans-serif;
-  margin: 0 auto;
-}
-
 .preloader {
   position: fixed;
   top: 0;
@@ -89,37 +84,6 @@ body, html {
   padding-bottom: 50px;
   padding-top: 50px;
   font-weight: bold;
-}
-
-.input-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  height: auto;
-  width: 250px;
-  border: 2px solid #c765c7;
-  border-radius: 35px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.input-button:hover {
-  cursor: pointer;
-  -webkit-transition-duration: .3s;
-          transition-duration: .3s;
-  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
 }
 
 .operation__container {
@@ -216,8 +180,6 @@ section {
   background: #f2f2f2;
   padding-bottom: 50px;
   max-width: 100%;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
 }
 
 .card__container {
@@ -305,10 +267,6 @@ section {
   margin: 0;
 }
 
-h4 {
-  margin: 0;
-}
-
 .card__icon__heart {
   color: black;
   cursor: pointer;
@@ -349,34 +307,6 @@ h4 {
   }
 }
 
-body, html {
-  font-family: "Roboto", sans-serif;
-  margin: 0 auto;
-}
-
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100px;
-}
-
-.header__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 20px;
-  height: 50px;
-}
-
-.header__icon {
-  padding-top: 30px;
-  padding-left: 10px;
-  color: black;
-}
-
 .restaurant__image > img {
   max-height: 500px;
   width: 100%;
@@ -412,12 +342,12 @@ body, html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 97%;
+  width: 100%;
 }
 
 .container__title {
   padding-top: 10px;
-  padding-left: 40px;
+  padding-left: 20px;
   font-family: "shrikhand";
   font-style: italic;
   font-weight: bold;
@@ -427,6 +357,7 @@ body, html {
 .container__icon {
   color: black;
   cursor: pointer;
+  padding-right: 10px;
 }
 
 .container__icon:hover {
@@ -686,89 +617,6 @@ body, html {
   transform: rotate(0);
 }
 
-.input-Button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 50px;
-  height: auto;
-  width: 250px;
-  border: 2px solid #c765c7;
-  border-radius: 35px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
-  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.input-button:hover {
-  cursor: pointer;
-  -webkit-transition-duration: .3s;
-  transition-duration: .3s;
-  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
-}
-
-.footer {
-  background: #333;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.footer__logo {
-  font-family: "shrikhand";
-  font-size: 30px;
-  padding-top: 35px;
-  padding-left: 35px;
-}
-
-.communication {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 35px;
-  line-height: 0;
-}
-
-.communication__list > a {
-  color: inherit;
-  text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.communication__list:hover > a {
-  text-decoration: underline;
-}
-
-.communication__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 25px;
-}
-
-.communication__icon {
-  margin-right: 10px;
-  padding-top: 16px;
-}
-
 @media screen and (max-width: 1440px) {
   .container {
     max-width: 100%;
@@ -797,13 +645,13 @@ body, html {
 
 @media screen and (max-width: 500px) and (min-width: 320px) {
   .header__logo {
-    width: 250px;
+    width: 200px;
   }
   .container__title {
-    font-size: 13px;
+    font-size: 14px;
     padding-left: 10px;
     height: 48px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .container__icon {
     margin: 25px;
@@ -838,11 +686,12 @@ body, html {
   margin-left: auto;
   padding-top: 20px;
   height: 50px;
+  padding-right: 20px;
 }
 
-.header__logo__icon {
+.header__icon {
   padding-top: 30px;
-  padding-left: 10px;
+  padding-left: 20px;
   color: black;
 }
 
@@ -867,21 +716,21 @@ body, html {
   padding-left: 35px;
 }
 
-.footer .communication {
+.communication {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 35px;
   line-height: 0;
 }
 
-.footer .communication__list {
+.communication__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   font-size: 25px;
 }
 
-.footer .communication__list__list > a {
+.communication__list > a {
   color: inherit;
   text-decoration: none;
   display: -webkit-box;
@@ -889,12 +738,53 @@ body, html {
   display: flex;
 }
 
-.footer .communication__list__list > a__list:hover > a {
+.communication__list:hover > a {
   text-decoration: underline;
 }
 
-.footer .communication__list__list > a__icon {
+.communication__icon {
   margin-right: 10px;
   padding-top: 16px;
+}
+
+.input-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  height: auto;
+  width: 250px;
+  border: 2px solid #c765c7;
+  border-radius: 35px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.input-button:hover {
+  cursor: pointer;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+  -webkit-box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+}
+
+body, html {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+h4 {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */
