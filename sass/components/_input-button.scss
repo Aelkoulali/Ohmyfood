@@ -1,10 +1,5 @@
 .input-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  @include center;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
@@ -12,7 +7,7 @@
     width: 250px;
     border: 2px solid rgb(199, 101, 199);
     border-radius: 35px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+    background: -webkit-gradient(linear, left top, left bottom, from($color-secondary), to($color-primary));
     background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
     color: white;
     font-size: 20px;

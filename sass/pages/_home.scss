@@ -11,9 +11,7 @@
   top: 0;
   left: 0;
   background: #a7d4ee;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
+  @include center;
  }
 
 
@@ -24,7 +22,7 @@
   text-transform: uppercase;  
   opacity: 0;
   transform: rotateX(-90deg);
-  color: #9356dc;
+  color: $color-primary;
   font-size: 45px;
   font-family:"shrikhand";
   letter-spacing: 10px;
@@ -89,19 +87,14 @@
 }
 
 .position {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  @include center;
     background: #e5e2e2;
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-top: 5px solid #dad6d6;
    
   &__icon {
-    padding-top: 30px;
+    padding-top: 0;
     margin-right: 20px;
   }
   &__city {
@@ -131,9 +124,7 @@
   }
   
   .operation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    @include center;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -147,11 +138,9 @@
     padding: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
+        -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
-            max-width: 1500px;
+         max-width: 1500px;
      
   }
   
@@ -187,7 +176,7 @@
     width: 20px;
     height: 20px;
     padding: 10px;
-    background: #9563d6;
+    background: $color-primary;
     text-align: center;
     vertical-align: middle;
     color: white;
@@ -199,7 +188,7 @@
   }
   
   .operation__name:hover .operation__icon {
-    color: #9563d6;
+    color: $color-primary;
   }
   
   .position__icon:hover {
@@ -218,11 +207,9 @@
   }
   
   .card__container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    @include center;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 0;
     max-width: 100%;
     height: auto;
@@ -231,7 +218,6 @@
     margin-bottom: 50px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
             max-width: 1500px; 
             width: 100%;
   }
@@ -273,9 +259,9 @@
   
   .card__picture__text {
     color: #2b805b;
-    background-color: #99e2d0;
+    background-color: $color-tertiary;
     text-align: center;
-    border: 1px solid #99e2d0;
+    border: 1px solid $color-tertiary;
     width: 120px;
     height: 25px;
     padding: 10px;
@@ -312,7 +298,7 @@
     animation: fill 0.8s ease-in-out;
     display: inline-block;
     opacity: 1;
-    background:linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    background:linear-gradient(180deg, $color-primary, #b35cdc, #cf64dc, #e86edb, $color-secondary);
     background:-webkit-linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
     -webkit-background-clip: text;
     background-clip: text;

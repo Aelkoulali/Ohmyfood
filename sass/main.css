@@ -34,7 +34,7 @@
   opacity: 0;
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
-  color: #9356dc;
+  color: #9356DC;
   font-size: 45px;
   font-family: "shrikhand";
   letter-spacing: 10px;
@@ -152,8 +152,11 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #e5e2e2;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -161,7 +164,7 @@
 }
 
 .position__icon {
-  padding-top: 30px;
+  padding-top: 0;
   margin-right: 20px;
 }
 
@@ -193,6 +196,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -206,10 +211,8 @@
   padding: 0;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
   max-width: 1500px;
 }
 
@@ -245,7 +248,7 @@
   width: 20px;
   height: 20px;
   padding: 10px;
-  background: #9563d6;
+  background: #9356DC;
   text-align: center;
   vertical-align: middle;
   color: white;
@@ -257,7 +260,7 @@
 }
 
 .operation__name:hover .operation__icon {
-  color: #9563d6;
+  color: #9356DC;
 }
 
 .position__icon:hover {
@@ -278,6 +281,10 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0;
@@ -288,7 +295,6 @@ section {
   margin-bottom: 50px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
   max-width: 1500px;
   width: 100%;
 }
@@ -330,9 +336,9 @@ section {
 
 .card__picture__text {
   color: #2b805b;
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   text-align: center;
-  border: 1px solid #99e2d0;
+  border: 1px solid #99E2D0;
   width: 120px;
   height: 25px;
   padding: 10px;
@@ -369,8 +375,8 @@ section {
           animation: fill 0.8s ease-in-out;
   display: inline-block;
   opacity: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#ff79da));
-  background: linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#FF79DA));
+  background: linear-gradient(180deg, #9356DC, #b35cdc, #cf64dc, #e86edb, #FF79DA);
   background: -webkit-linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   -webkit-background-clip: text;
   background-clip: text;
@@ -476,8 +482,11 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 100%;
@@ -508,7 +517,7 @@ section {
   margin-bottom: 50px;
   margin-top: 20px;
   padding-bottom: 6px;
-  border-bottom: 4.5px solid #99e2d0;
+  border-bottom: 4.5px solid #99E2D0;
   font-size: 20px;
 }
 
@@ -666,18 +675,18 @@ section {
 }
 
 .list__selection {
-  background-color: #99e2d0;
+  background-color: #99E2D0;
   margin: -16px -80px -16px 16px;
   width: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   border-bottom-right-radius: 25px;
@@ -691,17 +700,17 @@ section {
 .list__icon {
   height: 25px;
   width: 25px;
-  color: #99e2d0;
+  color: #99E2D0;
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 100px;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
@@ -849,8 +858,11 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: auto;
   margin-left: auto;
   margin-top: 50px;
