@@ -52,7 +52,7 @@
   animation: fill 0.8s ease-in-out;
   display: inline-block;
   opacity: 1;
-  background:linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background:linear-gradient(180deg, $color-primary, #b35cdc, #cf64dc, #e86edb, $color-secondary);
   background:-webkit-linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   -webkit-background-clip: text;
   background-clip: text;

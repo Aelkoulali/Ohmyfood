@@ -10,26 +10,30 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: #a7d4ee;
+  background: linear-gradient(45deg, #d464b5 0%, #6a98df 100%);
   @include center;
  }
-
 
 .lettre {
   position: relative;
   top: 2em;  
   display: inline-block;
-  text-transform: uppercase;  
   opacity: 0;
   transform: rotateX(-90deg);
-  color: $color-primary;
-  font-size: 45px;
+  color: white;
+  font-size: 80px;
   font-family:"shrikhand";
   letter-spacing: 10px;
-  margin-bottom: 400px;
+  margin-bottom: 650px;
   animation: drop 1.75s ease-in-out infinite;
 }
 
+@media screen and (max-width: 600px) {
+  .lettre {
+    font-size: 45px;
+    margin-bottom: 350px;
+  }
+}
 
 .lettre:nth-child(1){
   animation-delay: 1.2s;

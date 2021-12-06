@@ -14,7 +14,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: #a7d4ee;
+  background: linear-gradient(45deg, #d464b5 0%, #6a98df 100%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,17 +30,23 @@
   position: relative;
   top: 2em;
   display: inline-block;
-  text-transform: uppercase;
   opacity: 0;
   -webkit-transform: rotateX(-90deg);
           transform: rotateX(-90deg);
-  color: #9356DC;
-  font-size: 45px;
+  color: white;
+  font-size: 80px;
   font-family: "shrikhand";
   letter-spacing: 10px;
-  margin-bottom: 400px;
+  margin-bottom: 650px;
   -webkit-animation: drop 1.75s ease-in-out infinite;
           animation: drop 1.75s ease-in-out infinite;
+}
+
+@media screen and (max-width: 600px) {
+  .lettre {
+    font-size: 45px;
+    margin-bottom: 350px;
+  }
 }
 
 .lettre:nth-child(1) {
@@ -468,8 +474,8 @@ section {
           animation: fill 0.8s ease-in-out;
   display: inline-block;
   opacity: 1;
-  background: -webkit-gradient(linear, left top, left bottom, from(#9356dc), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#ff79da));
-  background: linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#FF79DA));
+  background: linear-gradient(180deg, #9356DC, #b35cdc, #cf64dc, #e86edb, #FF79DA);
   background: -webkit-linear-gradient(180deg, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   -webkit-background-clip: text;
   background-clip: text;
