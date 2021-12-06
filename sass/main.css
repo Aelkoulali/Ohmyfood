@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 600px) {
   .lettre {
-    font-size: 45px;
+    font-size: 40px;
     margin-bottom: 350px;
   }
 }
@@ -487,14 +487,11 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
