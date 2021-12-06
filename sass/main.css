@@ -4,8 +4,8 @@
           animation: loader 0.01s;
   -webkit-animation-fill-mode: none;
           animation-fill-mode: none;
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  -webkit-animation-delay: 4.3s;
+          animation-delay: 4.3s;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   z-index: 10000;
@@ -28,7 +28,7 @@
 
 .lettre {
   position: relative;
-  top: 2em;
+  top: 35px;
   display: inline-block;
   opacity: 0;
   -webkit-transform: rotateX(-90deg);
@@ -248,15 +248,22 @@
 }
 
 .operation__number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 20px;
   margin-left: -35px;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   padding: 10px;
   background: #9356DC;
-  text-align: center;
-  vertical-align: middle;
   color: white;
 }
 
@@ -343,12 +350,10 @@ section {
 .card__picture__text {
   color: #2b805b;
   background-color: #99E2D0;
-  text-align: center;
   border: 1px solid #99E2D0;
   width: 120px;
   height: 25px;
   padding: 10px;
-  padding-top: 15px;
   padding: auto;
   position: absolute;
   top: 20px;
@@ -356,6 +361,15 @@ section {
   margin: 0;
   border-radius: 5px;
   font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card__description {
@@ -374,6 +388,8 @@ section {
 .card__icon__heart {
   color: black;
   cursor: pointer;
+  line-height: 1.2;
+  padding-right: 10px;
 }
 
 .card__icon__heart:hover {
@@ -466,6 +482,7 @@ section {
 .container__icon {
   color: black;
   cursor: pointer;
+  line-height: 1.2;
   padding-right: 10px;
 }
 

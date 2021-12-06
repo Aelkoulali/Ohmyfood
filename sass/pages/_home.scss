@@ -2,7 +2,7 @@
 .loader {
   animation: loader 0.01s;
   animation-fill-mode: none;
-  animation-delay: 6s;
+  animation-delay: 4.3s;
   animation-fill-mode: both;
   z-index: 10000;
   position: fixed;
@@ -16,7 +16,7 @@
 
 .lettre {
   position: relative;
-  top: 2em;  
+  top: 35px;  
   display: inline-block;
   opacity: 0;
   transform: rotateX(-90deg);
@@ -174,15 +174,14 @@
   }
   
   .operation__number {
+    @include center;
     margin-right: 20px;
     margin-left: -35px;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     padding: 10px;
     background: $color-primary;
-    text-align: center;
-    vertical-align: middle;
     color: white;
   }
   
@@ -264,12 +263,10 @@
   .card__picture__text {
     color: #2b805b;
     background-color: $color-tertiary;
-    text-align: center;
     border: 1px solid $color-tertiary;
     width: 120px;
     height: 25px;
     padding: 10px;
-    padding-top: 15px;
     padding: auto;
     position: absolute;
     top: 20px;
@@ -277,6 +274,7 @@
     margin: 0;
     border-radius: 5px;
     font-size: 20px;
+    @include center;
   }
   
   .card__description {
@@ -295,7 +293,8 @@
   .card__icon__heart {
     color: black;
     cursor: pointer;   
-    
+    line-height: 1.2;
+    padding-right: 10px;
   }
   
   .card__icon__heart:hover {

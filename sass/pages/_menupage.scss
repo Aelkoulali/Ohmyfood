@@ -46,7 +46,9 @@
 &__icon {
   color: black;
   cursor: pointer; 
+  line-height: 1.2;
   padding-right: 10px;
+
  }     
 &__icon:hover {
   animation: fill 0.8s ease-in-out;
