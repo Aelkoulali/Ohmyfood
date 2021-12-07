@@ -188,14 +188,15 @@
 }
 
 .operation__container {
-  background-color: white;
-  padding-bottom: 50px;
   max-width: 100%;
+  width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .operation__title {
-  padding-top: 50px;
-  margin-left: 70px;
+  padding-top: 35px;
+  padding-left: 35px;
 }
 
 .operation {
@@ -210,16 +211,15 @@
   flex-direction: row;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 100%;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 50px;
-  padding: 0;
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  max-width: 1500px;
+  width: 1470px;
 }
 
 .operation__name {
@@ -228,9 +228,9 @@
   display: flex;
   height: auto;
   max-width: 100%;
-  width: 400px;
+  width: 375px;
   border: 2px solid #f2f2f2;
-  margin: 15px;
+  margin: 35px;
   padding: 20px;
   border-radius: 45px;
   background-color: #f2f2f2;
@@ -284,10 +284,24 @@
   text-align: center;
 }
 
+.main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 section {
   background: #f2f2f2;
   padding-bottom: 50px;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.restaurant__container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1470px;
 }
 
 .card__container {
@@ -300,7 +314,6 @@ section {
           align-items: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 0;
   max-width: 100%;
   height: auto;
   margin-left: auto;
@@ -308,13 +321,11 @@ section {
   margin-bottom: 50px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  max-width: 1500px;
-  width: 100%;
 }
 
 .card__container__title {
-  margin-left: 70px;
   padding-top: 50px;
+  padding-left: 35px;
 }
 
 .card {
@@ -344,7 +355,7 @@ section {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   width: 100%;
-  width: 650px;
+  width: 660px;
 }
 
 .card__picture__text {
@@ -405,7 +416,7 @@ section {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1470px) {
   .reservation {
     padding-right: 50px;
     padding-left: 50px;
@@ -415,15 +426,11 @@ section {
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .operation__name {
     width: 100%;
-  }
-  .operation__title {
-    margin-left: 20px;
-  }
-  .card__container__title {
-    margin-left: 20px;
   }
   .card {
     width: 100%;
@@ -449,7 +456,8 @@ section {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: auto;
-  max-width: 1500px;
+  width: 1470px;
+  max-width: 100%;
   padding-bottom: 100px;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
@@ -509,9 +517,10 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
+  width: 1470px;
 }
 
 .list__container {
@@ -534,7 +543,6 @@ section {
 
 .list__container__title {
   max-width: 55px;
-  margin-bottom: 50px;
   margin-top: 20px;
   padding-bottom: 6px;
   border-bottom: 4.5px solid #99E2D0;
@@ -550,9 +558,9 @@ section {
   -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 100%;
-  width: 450px;
+  width: 400px;
   border: 1px solid #f2f2f2;
-  margin: 10px 0;
+  margin: 35px 0 0 0;
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
@@ -743,7 +751,7 @@ section {
   transform: rotate(0);
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1470px) {
   .container {
     max-width: 100%;
     display: -webkit-box;
@@ -833,6 +841,15 @@ section {
           flex-direction: column;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__container {
+  max-width: 100%;
+  width: 1470px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer__logo {
@@ -845,7 +862,6 @@ section {
 .communication {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 35px;
   line-height: 0;
 }
 

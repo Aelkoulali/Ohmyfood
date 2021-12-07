@@ -4,7 +4,15 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-
+  margin-left: auto;
+  margin-right: auto;
+&__container {
+ max-width: 100%;
+ width: 1470px; 
+ margin-left: auto; 
+ margin-right: auto;
+  
+} 
 &__logo {
   font-family: "shrikhand";
   font-size: 30px;
@@ -16,7 +24,6 @@
 .communication {
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 35px;
   line-height: 0;
 
 &__list {
@@ -40,5 +47,5 @@ text-decoration: underline;
   padding-top: 16px;
 }
 }   
-  
  
+
