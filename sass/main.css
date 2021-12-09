@@ -180,11 +180,11 @@
 }
 
 .reservation {
-  text-align: center;
   background-color: #f2f2f2;
   padding-bottom: 50px;
   padding-top: 50px;
   font-weight: bold;
+  text-align: center;
 }
 
 .operation__container {
@@ -416,10 +416,6 @@ section {
   font-weight: bold;
 }
 @media screen and (max-width: 1487px) {
-  .reservation {
-    padding-right: 50px;
-    padding-left: 50px;
-  }
   .operation {
     display: -webkit-box;
     display: -ms-flexbox;
