@@ -246,7 +246,7 @@
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 35px;
-    text-align-last: 650px;
+    width: 665px;
     max-width: 100%;
     height: 350px;
     border-radius: 25px;
@@ -268,7 +268,7 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     width: 100%;
-    width: 660px;
+    width: 665px;
   }
   
   .card__picture__text {
@@ -278,7 +278,6 @@
     width: 120px;
     height: 25px;
     padding: 10px;
-    padding: auto;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -322,7 +321,7 @@
      
   
   /*# sourceMappingURL=style.css.map */
-  @media screen and (max-width: 1470px)  {
+  @media screen and (max-width: 1487px)  {
   
   .reservation {
    padding-right: 50px;

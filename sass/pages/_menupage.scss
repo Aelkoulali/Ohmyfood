@@ -111,9 +111,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 100%;
-  width: 400px;
+  width: 380px;
   border: 1px solid #f2f2f2;
-  margin: 35px 0 0 0;
+  margin: 35px 0 -15px 0;
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
@@ -281,7 +281,7 @@
           transform: rotate(0);
 }
 
-@media screen and (max-width: 1470px)  {
+@media screen and (max-width: 1487px)  {
   .container {
     max-width: 100%;
     display: flex;
@@ -312,7 +312,7 @@
     font-size: 14px;
     padding-left: 10px;
     height: 48px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
   }
   .container__icon {
     margin: 25px;

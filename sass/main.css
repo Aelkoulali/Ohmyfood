@@ -333,7 +333,7 @@ section {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 35px;
-  text-align-last: 650px;
+  width: 665px;
   max-width: 100%;
   height: 350px;
   border-radius: 25px;
@@ -355,7 +355,7 @@ section {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   width: 100%;
-  width: 660px;
+  width: 665px;
 }
 
 .card__picture__text {
@@ -365,7 +365,6 @@ section {
   width: 120px;
   height: 25px;
   padding: 10px;
-  padding: auto;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -416,7 +415,7 @@ section {
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
-@media screen and (max-width: 1470px) {
+@media screen and (max-width: 1487px) {
   .reservation {
     padding-right: 50px;
     padding-left: 50px;
@@ -558,9 +557,9 @@ section {
   -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: 100%;
-  width: 400px;
+  width: 380px;
   border: 1px solid #f2f2f2;
-  margin: 35px 0 0 0;
+  margin: 35px 0 -15px 0;
   padding: 10px;
   padding-top: 0;
   padding-bottom: 0;
@@ -751,7 +750,7 @@ section {
   transform: rotate(0);
 }
 
-@media screen and (max-width: 1470px) {
+@media screen and (max-width: 1487px) {
   .container {
     max-width: 100%;
     display: -webkit-box;
@@ -785,7 +784,7 @@ section {
     font-size: 14px;
     padding-left: 10px;
     height: 48px;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
   }
   .container__icon {
     margin: 25px;
