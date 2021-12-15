@@ -9,7 +9,7 @@
     border-radius: 30px;
     background-image: -webkit-gradient(linear, left top, left bottom, from($color-secondary), to($color-primary));
     background-image: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-    transition-duration: .5s;
+    transition-duration: .8s;
     color: #fff;
     font-size: 20px;
     font-weight: bold;
@@ -20,6 +20,6 @@
   
   .input-button:hover {
     box-shadow: 4px 4px 8px rgba(0,0,0,.25);
-    background-color: lighten(#9356dc 8%);
+    background-color: lighten(#9356dc,8%);
     background-blend-mode: lighten;
   }
