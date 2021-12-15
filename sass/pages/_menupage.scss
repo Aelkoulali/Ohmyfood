@@ -41,7 +41,7 @@
   padding-left: 20px;
   font-family: "shrikhand","cursive";
   font-weight: bold;
-  font-size: 18px
+  font-size: 20px
 }  
 
 &__icon {
@@ -49,10 +49,10 @@
   cursor: pointer; 
   line-height: 1.2;
   padding-right: 10px;
-
+  
  }     
-&__icon:hover {
-  animation: fill 0.8s ease-in-out;
+&__icon:hover::before {
+  animation: fill 0.4s ease-in-out;
   display: inline-block;
   opacity: 1;
   background:linear-gradient(180deg, $color-primary, #b35cdc, #cf64dc, #e86edb, $color-secondary);
@@ -63,7 +63,19 @@
   font-weight: bold;
   }
  }
- 
+
+ @keyframes fill {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .menu {
  display : flex;
   -ms-flex-wrap: wrap;
@@ -91,11 +103,12 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
  
 
 &__title {
   max-width: 55px;
-  margin-top: 20px;
+  margin: 0;
   padding-bottom: 6px;
   border-bottom: 4.5px solid $color-tertiary;
   font-size: 20px;
@@ -305,19 +318,8 @@
   }
 
 @media screen and (max-width: 500px) and (min-width: 320px) {
-  .header__logo {
-    width: 200px;
-  }
-  .container__title {
-    font-size: 14px;
-    padding-left: 10px;
-    height: 48px;
-    padding-bottom: 35px;
-  }
-  .container__icon {
-    margin: 25px;
-    margin-right: 0;
-  }
+  
+  
   .container {
     max-width: 100%;
   }
