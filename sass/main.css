@@ -398,12 +398,11 @@ section {
 .card__icon__heart {
   color: black;
   cursor: pointer;
-  line-height: 1.2;
 }
 
 .card__icon__heart:hover::before {
-  -webkit-animation: fill 0.8s ease-in-out;
-          animation: fill 0.8s ease-in-out;
+  -webkit-animation: fill 1s ease-in-out;
+          animation: fill 1s ease-in-out;
   display: inline-block;
   opacity: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#FF79DA));
@@ -417,10 +416,10 @@ section {
 
 @-webkit-keyframes fill {
   0% {
-    opacity: 0.09;
+    opacity: 0.1;
   }
   50% {
-    opacity: 0.4;
+    opacity: 0.5;
   }
   80% {
     opacity: 0.8;
@@ -432,10 +431,10 @@ section {
 
 @keyframes fill {
   0% {
-    opacity: 0.09;
+    opacity: 0.1;
   }
   50% {
-    opacity: 0.4;
+    opacity: 0.5;
   }
   80% {
     opacity: 0.8;
@@ -501,10 +500,10 @@ section {
   -ms-flex-align: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 20PX;
 }
 
 .container__title {
-  padding-top: 10px;
   padding-left: 20px;
   font-family: "shrikhand","cursive";
   font-weight: bold;
@@ -519,8 +518,8 @@ section {
 }
 
 .container__icon:hover::before {
-  -webkit-animation: fill 0.4s ease-in-out;
-          animation: fill 0.4s ease-in-out;
+  -webkit-animation: fill 1s ease-in-out;
+          animation: fill 1s ease-in-out;
   display: inline-block;
   opacity: 1;
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), color-stop(#b35cdc), color-stop(#cf64dc), color-stop(#e86edb), to(#FF79DA));
@@ -534,10 +533,13 @@ section {
 
 @keyframes fill {
   0% {
-    opacity: 0;
+    opacity: 0.1;
   }
   50% {
     opacity: 0.5;
+  }
+  80% {
+    opacity: 0.8;
   }
   100% {
     opacity: 1;
@@ -583,7 +585,7 @@ section {
   margin: 0;
   padding-bottom: 6px;
   border-bottom: 4.5px solid #99E2D0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .list {
@@ -596,7 +598,6 @@ section {
   justify-content: space-between;
   max-width: 100%;
   width: 380px;
-  border: 1px solid #f2f2f2;
   margin: 35px 0 -15px 0;
   padding: 10px;
   padding-top: 0;
@@ -883,6 +884,10 @@ section {
   padding-left: 35px;
 }
 
+.footer__logo > p {
+  margin-bottom: 15px;
+}
+
 .communication {
   margin-top: 0;
   margin-bottom: 0;
@@ -932,8 +937,8 @@ section {
   border-radius: 30px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
   background-image: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-  -webkit-transition-duration: .3s;
-          transition-duration: .3s;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
@@ -943,9 +948,10 @@ section {
 }
 
 .input-button:hover {
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+  background-color: #a978e3;
+  background-blend-mode: lighten;
 }
 
 body, html {

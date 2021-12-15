@@ -303,12 +303,11 @@
   .card__icon__heart {
     color: black; 
     cursor: pointer;   
-    line-height: 1.2;
-      
+    
   }
   
   .card__icon__heart:hover::before {
-    animation: fill 0.8s ease-in-out;
+    animation: fill 1s ease-in-out;
     display: inline-block;
     opacity: 1;
     background:linear-gradient(180deg, $color-primary, #b35cdc, #cf64dc, #e86edb, $color-secondary);
@@ -321,10 +320,10 @@
   
   @keyframes fill {
     0% {
-      opacity: 0.09;
+      opacity: 0.1;
     }
     50% {
-      opacity: 0.4;
+      opacity: 0.5;
     }
 
     80% {
