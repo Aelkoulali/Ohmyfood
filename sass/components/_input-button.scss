@@ -20,6 +20,6 @@
   
   .input-button:hover {
     box-shadow: 4px 4px 8px rgba(0,0,0,.25);
-    background-color: lighten(#9356dc,10%);
+    background-color: lighten($color-primary,10%);
     background-blend-mode: lighten;
   }
