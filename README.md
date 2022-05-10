@@ -6,15 +6,15 @@ utilisateurs de composer leur propre menu et réduire leur temps d’attente dan
 restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte.
 
 ## Technologies
-● Le développement devra se faire en CSS, sans JavaScript.
+● Le développement devra se faire en CSS, sans JavaScript.<br />
 ● Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un
-plus.
+plus.<br />
 ● Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
 
 ## Page d’accueil (x1)
 ● Affichage de la localisation des restaurants. À terme il sera possible de choisir sa
-localisation pour trouver des restaurants proches d’un certain lieu.
-● Une courte présentation de l’entreprise.
+localisation pour trouver des restaurants proches d’un certain lieu.<br />
+● Une courte présentation de l’entreprise.<br />
 ● Une section contenant les 4 menus sous forme cartes. Au clic sur la carte,
 l’utilisateur est redirigé vers la page du menu.
 ## Pages de menu (x4)
@@ -23,8 +23,8 @@ l’utilisateur est redirigé vers la page du menu.
 ● Le footer est identique sur toutes les pages.
 ● Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
 ## Header
-● Le header est présent sur toutes les pages.
-● Sur la page d’accueil, il contient le logo du site.
+● Le header est présent sur toutes les pages.<br />
+● Sur la page d’accueil, il contient le logo du site.<br />
 ● Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil
 
 🟣 Effets graphiques et animations
@@ -32,7 +32,7 @@ Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils d
 les animations ou transitions CSS, pas de JavaScript ni de librairie.
 ## Boutons
 ● Au survol, la couleur de fond des boutons principaux devra légèrement s’éclaircir.
-L’ombre portée devra également être plus visible.
+L’ombre portée devra également être plus visible.<br />
 ● À terme, les visiteurs pourront sauvegarder leurs menus préférés. Pour ça, un
 bouton "J’aime" en forme de coeur est présent sur la maquette. Au clic, il devra se
 remplir progressivement. Pour cette première version, l’effet peut être apparaître au
