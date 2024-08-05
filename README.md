@@ -21,7 +21,7 @@ localisation pour trouver des restaurants proches d’un certain lieu.
 l’utilisateur est redirigé vers la page du menu.
 ## ➡️ Pages de menu (x4)
 ### ✅ 4 pages contenant chacune le menu d’un restaurant.
-## Footer
+## ➡️ Footer
 ### ✅ Le footer est identique sur toutes les pages.
 ### ✅ Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
 ## ➡️ Header
