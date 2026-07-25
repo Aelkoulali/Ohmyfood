@@ -8,10 +8,10 @@ utilisateurs de composer leur propre menu et réduire leur temps d’attente dan
 restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte.
 
 ## 🛠️ Technologies
-### ✅ Le développement devra se faire en CSS, sans JavaScript.
-### ✅ Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un
-plus.<br />
-### ✅ Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
+- Le développement devra se faire en CSS, sans JavaScript.
+- Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un
+plus.
+- Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
 
 ## 🏠︎ Page d’accueil (x1)
 ### ✅ Affichage de la localisation des restaurants. À terme il sera possible de choisir sa
