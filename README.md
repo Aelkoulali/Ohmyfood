@@ -21,14 +21,14 @@ localisation pour trouver des restaurants proches d’un certain lieu.
 l’utilisateur est redirigé vers la page du menu.
 
 ## 🍽️ Pages de menu (x4)
-### ✅ 4 pages contenant chacune le menu d’un restaurant.
+- 4 pages contenant chacune le menu d’un restaurant.
 ## ➡️ Footer
-### ✅ Le footer est identique sur toutes les pages.
-### ✅ Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
+- Le footer est identique sur toutes les pages.
+- Au clic sur “Contact”, un renvoi vers une adresse mail est effectué.
 ## ➡️ Header
-### ✅ Le header est présent sur toutes les pages.
-### ✅ Sur la page d’accueil, il contient le logo du site.
-### ✅ Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil
+- Le header est présent sur toutes les pages.-
+- Sur la page d’accueil, il contient le logo du site.
+- Sur les pages de menu, il contient en plus un bouton de retour vers la page d’accueil
 
 ## ➡️ Effets graphiques et animations
 ### ✅ Les effets accessibles au clic ou au survol sont visibles sur la maquette. Ils devront utiliser
